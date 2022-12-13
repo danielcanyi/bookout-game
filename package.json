@@ -1,0 +1,25 @@
+{
+  "name": "bookout-game",
+  "version": "1.0.0",
+  "description": "Escape Game called Bookout",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcanyi/bookout-game.git"
+  },
+  "author": "Daniel Ho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielcanyi/bookout-game/issues"
+  },
+  "homepage": "https://github.com/danielcanyi/bookout-game#readme",
+  "dependencies": {
+    "esbuild": "^0.16.4"
+  }
+}
