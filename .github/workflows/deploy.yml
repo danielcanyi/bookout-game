@@ -33,7 +33,6 @@ jobs:
       - uses: purescript-contrib/setup-purescript@main
         with:
           purescript: "0.15.4"
-          purs-tidy: "0.8.2"
           spago: "0.20.9"
           psa: "0.7.2"
 
