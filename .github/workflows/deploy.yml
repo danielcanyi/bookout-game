@@ -63,8 +63,8 @@ jobs:
 
       - name: Install NPM dependencies
         run: npm install
-      - name: Install esbuild
-        run: npm install --save-exact esbuild
+      - name: Install esbuild globally
+        run: npm -g install --save-exact esbuild
 
       # Compile the library/project
       #   censor-lib: ignore warnings emitted by dependencies
